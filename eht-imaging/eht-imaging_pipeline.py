@@ -47,6 +47,9 @@ __date__  = "April 10 2019"
 #-------------------------------------------------------------------------------
 # Modules
 #-------------------------------------------------------------------------------
+import matplotlib
+matplotlib.use('Agg')
+
 import os
 import argparse
 import ehtim as eh
